@@ -110,12 +110,12 @@ logo = "images/logo.png"
 logoAlt = "images/logo-alt.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Fusion GitHub Org theme"
+author = "Michael Roy"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-mapLatitude = "51.5223477"
-mapLongitude = "-0.1622023"
+mapLatitude = "37.398947"
+mapLongitude = "-122.141967"
 mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "Your ID"

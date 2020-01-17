@@ -1,3 +1,4 @@
+{{ "<!-- NAVBAR start -->" | safeHTML }}
 <nav class="navbar main-nav navbar-expand-lg p-0">
   <div class="container">
     <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logo | absURL }}" alt="logo"></a>
@@ -33,3 +34,4 @@
     </div>
   </div>
 </nav>
+{{ "<!-- navbar end -->" | safeHTML }}
