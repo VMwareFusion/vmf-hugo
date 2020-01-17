@@ -1,7 +1,7 @@
 # banner
 banner:
-  title : "How Professionals run Virtual Machines on their Mac"
-  description : "VMware Fusion enables users to build, test and run apps for nearly any OS or cloud right from the comfort of your own Mac"
+  title : "Introducing VMware Project Nautilus"
+  description : "Project Nautilus enables VMware Fusion users to build, test and run apps for nearly any OS or cloud right from the comfort of your own Mac"
   bgImage : "images/home-banner.webp"
   bgImageAlt : "images/home-banner.png"
   image : "images/fusion-and_mac-sm.png"
@@ -72,7 +72,7 @@ service:
 
 # promo video
 promoVideo:
-  enable : false
+  enable : true
   bgImage : "images/background/promo-video-back.webp"
   bgImageAlt : "images/background/promo-video-back.jpg"
   title : "Watch Our Promo Video"
