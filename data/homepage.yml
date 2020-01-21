@@ -8,7 +8,7 @@ banner:
   imageAlt : "images/fusion-and_mac-sm.png"
   button:
     btnText : "Download Tech Preview"
-    URL : "http://bit.ly/getnautilus"
+    URL : "https://bit.ly/getnautilus"
   button2:
     btnText : "Getting Started"
     URL : "https://github.com/VMwareFusion/nautilus/blob/master/docs/GettingStarted.md"
@@ -37,18 +37,18 @@ featureOne:
   content : "With Project Nautilus, Fusion now has the ability to run Containers as well as VMs. Pull images from a remote repository like Docker Hub or Harbor, and run them in specially isolated 'Pod VMs'."
   comment : "I really like that I can spin up my containers, run them in a local kubernetes cluster and test them against multiple browsers, all at once, from the same app, without a connection to the Internet."
   clientImage : "images/testimonial/me_beardy_smile.jpg"
-  clientName : "Michael Roy , mikeroySoft.com"
+  clientName : "Michael Roy, mikeroySoft.com"
 
 # feature two
 featureTwo:
   enable : true
-  image : "images/feature/nautilus-vctl-01.pn"
+  image : "images/feature/nautilus-vctl-01.png"
   imageAlt : "images/feature/nautilus-vctl-01.png"
   title : "Run, Build or Test any app, anywhere, any time"
   content : "With support for building and running Containers, Kubernetes and Virtual Machines side-by-side, Fusion can help you build new cloud services or modernize existing apps. You can then test your app on just about any desktop OS and Broswer combination with desktop virtual machines, quickly and easily. No Cloud Required."
   comment : "vctl gives new controls to Fusion, and eventually Workstation. We're incredibly excited about the possibilities here, and we're looking forward to innovating right out in the open!"
   clientImage : "images/testimonial/me_beardy_smile.jpg"
-  clientName : "Michael Roy , mikeroySoft.com"
+  clientName : "Michael Roy, mikeroySoft.com"
 
 # feature three
 featureThree:
@@ -123,4 +123,4 @@ download:
   downloadButton :
     - btnText : "Download Fusion Tech Preview"
       icon : "tf-ion-social-apple"
-      URL : "http://bit.ly/getnautilus"
+      URL : "https://bit.ly/getnautilus"
