@@ -49,7 +49,7 @@ paginate = 6
   
   [[menu.main]]
   name = "Getting Started"
-  URL = "https://github.com/VMwareFusion/nautilus/blob/master/docs/GettingStarted.md"
+  URL = "https://github.com/VMwareFusion/nautilus/blob/master/docs/getting-started.md"
   weight = 3
 
   [[menu.main]]
@@ -91,7 +91,7 @@ paginate = 6
   # footer menu
   [[menu.footer]]
   name = "Getting Started"
-  URL = "https://github.com/VMwareFusion/nautilus/blob/master/docs/GettingStarted.md"
+  URL = "https://github.com/VMwareFusion/nautilus/blob/master/docs/getting-started.md"
   
   [[menu.footer]]
   name = "Nautilus FAQs"
@@ -142,7 +142,7 @@ googleAnalitycsID = "UA-37100411-2"
 #   # call to action
 #  [params.cta]
 #   enable = true
-#   title = "We are hunting Genius Developers"
-#   content = "Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus."
+#   title = "We are hunting developers"
+#   content = "coming soon..."
 #   btnText = "Join the team"
 #   URL = "#"

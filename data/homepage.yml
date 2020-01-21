@@ -4,7 +4,7 @@ banner:
   description : "Project Nautilus brings OCI container support to Fusion, enabling users to build, run and test apps for nearly any OS or cloud right from the comfort of your own Mac."
   bgImage : "images/home-banner.webp"
   bgImageAlt : "images/home-banner.png"
-  image : "images/fusion-and_mac-sm.png"
+  image : "images/nautilus-on-mac-720.png"
   imageAlt : "images/fusion-and_mac-sm.png"
   button:
     btnText : "Download Tech Preview"
@@ -31,10 +31,10 @@ bannerFeature:
 # feature one
 featureOne:
   enable : true
-  imageAlt : "images/feature/feature-new-01.jpg"
-  image : "images/feature/feature-new-01.webp"
-  title : "Run, Build or Test any app, anywhere, any time"
-  content : "With support for building and running Containers, Kubernetes and Virtual Machines side-by-side, Fusion can help you build new cloud services or modernize existing apps. You can then test your app on just about any desktop OS and Broswer combination with desktop virtual machines, quickly and easily. No Cloud Required."
+  imageAlt : "images/feature/Fusion2019-MacBookPro-iPadPro.png"
+  image : "images/feature/Fusion2019-MacBookPro-iPadPro.png"
+  title : "Build, Push, Pull and Run OCI Compliant Containers"
+  content : "With Project Nautilus, Fusion now has the ability to run Containers as well as VMs. Pull images from a remote repository like Docker Hub or Harbor, and run them in specially isolated 'Pod VMs'."
   comment : "I really like that I can spin up my containers, run them in a local kubernetes cluster and test them against multiple browsers, all at once, from the same app, without a connection to the Internet."
   clientImage : "images/testimonial/me_beardy_smile.jpg"
   clientName : "Michael Roy , mikeroySoft.com"
@@ -42,13 +42,25 @@ featureOne:
 # feature two
 featureTwo:
   enable : true
-  image : "images/feature/feature-new-02.webp"
-  imageAlt : "images/feature/feature-new-02.jpg"
-  title : "An Ecosystem of Apps"
-  content : "Use Bitnami stacks with Fusion to make it super simple to get started with a full application stack in a few clicks. Run pre-built virtual machines, containers or kubernetes helm charts to accellerate your application development time-to-value, or explore new technologies with minimal risk and set up time."
-  comment : "InVision is a window into everything that's being designed at Twitter. It gets all of our best work in one place."
+  image : "images/feature/nautilus-vctl-01.pn"
+  imageAlt : "images/feature/nautilus-vctl-01.png"
+  title : "Run, Build or Test any app, anywhere, any time"
+  content : "With support for building and running Containers, Kubernetes and Virtual Machines side-by-side, Fusion can help you build new cloud services or modernize existing apps. You can then test your app on just about any desktop OS and Broswer combination with desktop virtual machines, quickly and easily. No Cloud Required."
+  comment : "vctl gives new controls to Fusion, and eventually Workstation. We're incredibly excited about the possibilities here, and we're looking forward to innovating right out in the open!"
   clientImage : "images/testimonial/me_beardy_smile.jpg"
   clientName : "Michael Roy , mikeroySoft.com"
+
+# feature three
+featureThree:
+  enable : true
+  image : "images/feature/Fusion2019-MacBookPro-iPadPro.png"
+  imageAlt : "images/feature/nautilus-vctl-01.png"
+  title : "An Ecosystem of Apps"
+  content : "Use Bitnami stacks with Fusion to make it super simple to get started with a full application stack in a few clicks. Run pre-built virtual machines, containers or kubernetes helm charts to accellerate your application development time-to-value, or explore new technologies with minimal risk and set up time."
+  comment : "Bitnami simplifies the management of multi-cloud, cross-platform environments not by trying to abstract differences away, but by providing functionally equivalent, platform-optimized application and infrastructure stacks for each of them"
+  clientImage : "images/testimonial/bitnami-mark.png"
+  clientName : "Daniel Lopez, Bitnami"  
+
 
 # service
 service:
@@ -72,41 +84,41 @@ service:
       
     - icon : "tf-adjustments"
       title : "Plays well with vSphere"
-      content : "Prepare your apps for the vSphere data center with virtual machine compatibility, or run an entire vSphere lab environment in your desktop"
+      content : "Prepare your apps for the vSphere data center or run an entire vSphere lab environment in your desktop"
 
 # promo video
 promoVideo:
   enable : true
-  bgImage : "images/background/promo-video-back.webp"
-  bgImageAlt : "images/background/promo-video-back.jpg"
+  bgImage : "images/background/imac_pro-datacenter-bg.png"
+  bgImageAlt : "images/background/imac-pro-datacenter-bg.png"
   title : "VMware Fusion Quick Overview"
   content : "A quick overview of VMware Fusion"
   videoURL : "https://www.youtube.com/watch?v=oC3KVWQfelM"
 
-# testimonial
-testimonial:
-  enable : true
-  testimonialSlider:
-    - name: "Michael Roy , mikeroySoft.com"
-      image: "images/testimonial/me_beardy_smile.jpg"
-      content : "something something VMware "
+# # testimonial
+# testimonial:
+#   enable : true
+#   testimonialSlider:
+#     - name: "Michael Roy , mikeroySoft.com"
+#       image: "images/testimonial/me_beardy_smile.jpg"
+#       content : "something something VMware "
       
-    - name: "Michael Roy , mikeroySoft.com"
-      image: "images/testimonial/me_beardy_smile.jpg"
-      content : "Alright, alright, alright..."
+#     - name: "Michael Roy , mikeroySoft.com"
+#       image: "images/testimonial/me_beardy_smile.jpg"
+#       content : "Alright, alright, alright..."
       
-    - name: "Michael Roy , mikeroySoft.com"
-      image: "images/testimonial/me_beardy_smile.jpg"
-      content : "You got a VM? You'd be a lot cooler if you did"
+#     - name: "Michael Roy , mikeroySoft.com"
+#       image: "images/testimonial/me_beardy_smile.jpg"
+#       content : "You got a VM? You'd be a lot cooler if you did"
       
-    - name: "Michael Roy , mikeroySoft.com"
-      image: "images/testimonial/me_beardy_smile.jpg"
-      content : "The thing I like about virtual machines is..."
+#     - name: "Michael Roy , mikeroySoft.com"
+#       image: "images/testimonial/me_beardy_smile.jpg"
+#       content : "The thing I like about virtual machines is..."
 
 # download
 download:
   enable : true
-  title : "Get started today"
+  title : "Get started"
   description : "10+ years of trusted virtualization experience <br>Millions of active daily users <br><b>VMware Fusion</b>"
   downloadButton :
     - btnText : "Download Fusion Tech Preview"
