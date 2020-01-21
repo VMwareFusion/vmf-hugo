@@ -1,4 +1,4 @@
-baseURL = "http://vmfusion.org/"
+baseURL = "http://vmwarefusion.github.io/"
 languageCode = "en-us"
 title = "VMware Fusion GitHub"
 theme = "vmf-hugo"
@@ -48,61 +48,66 @@ paginate = 6
   weight = 2
   
   [[menu.main]]
-  name = "Community"
-  URL = "https://communities.vmware.com/community/vmtn/beta/fusion-pro"
+  name = "Getting Started"
+  URL = "https://github.com/VMwareFusion/nautilus/blob/master/docs/GettingStarted.md"
   weight = 3
+
+  [[menu.main]]
+  name = "Beta Community"
+  URL = "https://communities.vmware.com/community/vmtn/beta/fusion-pro"
+  weight = 4
   
   [[menu.main]]
   name = "Blog"
   URL = "https://blogs.vmware.com/teamfusion"
-  weight = 4
+  weight = 5
   
   [[menu.main]]
   name = "Docs"
-  URL = "https://github.com/VMwareFusion/fusion/wiki"
+  URL = "https://github.com/VMwareFusion/nautilus/tree/master/docs"
   weight = 6
   
-  [[menu.main]]
-  name = "Contact"
-  URL = "/contact"
-  weight = 7
+  # [[menu.main]]
+  # name = "Contact"
+  # URL = "/contact"
+  # weight = 7
 
-  [[menu.main]]
-  weight = 8
-  name = "Pages"
-  hasChildren = true
+  # [[menu.main]]
+  # weight = 7
+  # name = "Pages"
+  # hasChildren = true
 
-    [[menu.main]]
-    parent = "Pages"
-    name = "privacy"
-    URL = "/privacy"
+  #   [[menu.main]]
+  #   parent = "Pages"
+  #   name = "privacy"
+  #   URL = "/privacy"
 
-    [[menu.main]]
-    parent = "Pages"
-    name = "FAQ"
-    URL = "/faq"
+  #   [[menu.main]]
+  #   parent = "Pages"
+  #   name = "FAQ"
+  #   URL = "/faq"
 
 
   # footer menu
   [[menu.footer]]
-  name = "About"
-  URL = "/about"
+  name = "Getting Started"
+  URL = "https://github.com/VMwareFusion/nautilus/blob/master/docs/GettingStarted.md"
   
   [[menu.footer]]
-  name = "Contact"
-  URL = "/contact"
-  
-  [[menu.footer]]
-  name = "Privacy"
-  URL = "/privacy"
+  name = "Nautilus FAQs"
+  URL = "https://github.com/VMwareFusion/nautilus/blob/master/docs/FAQ.md"
   
   [[menu.footer]]
   name = "Blog"
-  URL = "/blog"
+  URL = "https://blogs.vmware.com/teamfusion"
   
   [[menu.footer]]
-  name = "FAQ"
-  URL = "/faq"
+  name = "Fusion Community"
+  URL = "https://communities.vmware.com/community/vmtn/fusion"
+  
+  [[menu.footer]]
+  name = "Tech Preview Community"
+  URL = "https://communities.vmware.com/community/beta/fusion-pro"
 
 
 [params]
@@ -111,14 +116,14 @@ logoAlt = "images/logo-alt.png"
 home = "Home"
 # Meta data
 description = "Fusion GitHub Org theme"
-author = "Michael Roy"
+author = "Michael Roy, but not like, originally?"
 # google map
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-mapLatitude = "37.398947"
-mapLongitude = "-122.141967"
-mapMarker = "images/marker.png"
+# gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+# mapLatitude = "37.398947"
+# mapLongitude = "-122.141967"
+# mapMarker = "images/marker.png"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "UA-37100411-2"
 
   # Preloader
   [params.preloader]
@@ -127,20 +132,17 @@ googleAnalitycsID = "Your ID"
   # social icon
   [[params.footer.socialIcon]]
   icon = "tf-ion-social-facebook"
-  URL = "https://facebook.com/themefisher"
+  URL = "https://facebook.com/vmwarefusion"
 
   [[params.footer.socialIcon]]
   icon = "tf-ion-social-twitter"
-  URL = "https://twitter.com/themefisher"
+  URL = "https://twitter.com/vmwarefusion"
   
-  [[params.footer.socialIcon]]
-  icon = "tf-ion-social-instagram"
-  URL = "https://instagram.com/themefisher"
 
-  # call to action
- [params.cta]
-  enable = true
-  title = "We are hunting Genius Developers"
-  content = "Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus."
-  btnText = "Join the team"
-  URL = "#"
+#   # call to action
+#  [params.cta]
+#   enable = true
+#   title = "We are hunting Genius Developers"
+#   content = "Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus."
+#   btnText = "Join the team"
+#   URL = "#"

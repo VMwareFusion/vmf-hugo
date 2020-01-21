@@ -7,8 +7,12 @@ banner:
   image : "images/fusion-and_mac-sm.png"
   imageAlt : "images/fusion-and_mac-sm.png"
   button:
-    btnText : "Download Now"
-    URL : "https://vmware.com/go/getfusion"
+    btnText : "Download Tech Preview"
+    URL : "http://bit.ly/getnautilus"
+  button2:
+    btnText : "Getting Started"
+    URL : "https://github.com/VMwareFusion/nautilus/blob/master/docs/GettingStarted.md"
+
     
 # banner-feature
 bannerFeature:
@@ -75,9 +79,9 @@ promoVideo:
   enable : true
   bgImage : "images/background/promo-video-back.webp"
   bgImageAlt : "images/background/promo-video-back.jpg"
-  title : "Watch Our Promo Video"
-  content : "Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus"
-  videoURL : "https://www.youtube.com/watch?v=jrkvirglgaQ"
+  title : "VMware Fusion Quick Overview"
+  content : "A quick overview of VMware Fusion"
+  videoURL : "https://www.youtube.com/watch?v=oC3KVWQfelM"
 
 # testimonial
 testimonial:
@@ -105,6 +109,6 @@ download:
   title : "Get started today"
   description : "10+ years of trusted virtualization experience <br>Millions of active daily users <br><b>VMware Fusion</b>"
   downloadButton :
-    - btnText : "Download Fusion"
+    - btnText : "Download Fusion Tech Preview"
       icon : "tf-ion-social-apple"
-      URL : "https://vmware.com/go/getfusion"
+      URL : "http://bit.ly/getnautilus"
