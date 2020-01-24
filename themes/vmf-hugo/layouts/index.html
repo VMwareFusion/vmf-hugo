@@ -30,11 +30,8 @@
 				<a href="{{ .URL }}" class="btn font-weight-bold btn-main-md">{{ .btnText }}</a>
 				{{ end }}
 			</div>
-			<div class="col-md-6 text-center order-1 order-md-2">
-				
-					<img src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" class="img-fluid" alt="banner-image">
-				
-				<!-- <script id="asciicast-294994" src="https://asciinema.org/a/294994.js" async></script> -->
+			<div class="col-md-6 text-center order-1 order-md-2">	
+					<img src="{{ .image | absURL }}" onerror="this.src='{{ .imageAlt | absURL }}'" class="img-fluid" alt="banner-image">	
 			</div>
 			{{ end }}
 		</div>
